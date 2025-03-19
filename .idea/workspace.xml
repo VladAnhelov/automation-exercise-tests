@@ -5,29 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59819aed-f470-4daf-8de1-0f7c3d3d394f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-results/.last-run.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/autoTestId.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/base.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/mainPageLocators.comp.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/example.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/mainPage.spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "VladAnhelov"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;VladAnhelov&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/VladAnhelov/automation-exercise-tests.git",
-    "accountId": "7c3ad939-0408-44f5-831b-56498dce022c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/VladAnhelov/automation-exercise-tests.git&quot;,
+    &quot;accountId&quot;: &quot;7c3ad939-0408-44f5-831b-56498dce022c&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -39,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Playwright.basic test (1).executor": "Run",
     "Playwright.basic test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -52,7 +63,19 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Playwright.basic test (1)">
+    <configuration name="basic test (1)" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/mainPage.spec.ts" />
+      <test-names>
+        <test-name value="basic test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="basic test" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
@@ -67,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Playwright.basic test (1)" />
         <item itemvalue="Playwright.basic test" />
       </list>
     </recent_temporary>
@@ -87,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742314165105</updated>
       <workItem from="1742314166204" duration="73000" />
-      <workItem from="1742314314303" duration="4222000" />
+      <workItem from="1742314314303" duration="10945000" />
     </task>
     <servers />
   </component>
